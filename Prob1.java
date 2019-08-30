@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Problem {
+public class Prob1 {
 
     private static Scanner in;
     private static PrintWriter out;
@@ -12,11 +12,11 @@ public class Problem {
         out = new PrintWriter("output.out");
          */
 
-        in = new Scanner(System.in);
-        out = new PrintWriter(System.out);
+        in = new Scanner(new File("prob1.in"));
+        out = new PrintWriter("prob1.out");
 
-        String line = in.nextLine();
-        out.println("You typed \"" + line + "\".");
+        double d = in.nextDouble();
+        out.printf("To two places %.2f\r\n", d);
 
         in.close();
         out.close();

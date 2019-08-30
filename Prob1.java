@@ -7,10 +7,6 @@ public class Prob1 {
     private static PrintWriter out;
 
     public static void main(String[] args) throws Exception {
-        /*
-        in = new Scanner(new File ("input.in"));
-        out = new PrintWriter("output.out");
-         */
 
         in = new Scanner(new File("prob1.in"));
         out = new PrintWriter("prob1.out");
